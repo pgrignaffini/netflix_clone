@@ -1,0 +1,10 @@
+{
+  "name": "Upload",
+  "version": "1.0.0",
+  "main": "movie.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fs": "^0.0.1-security"
+  }
+}

@@ -1,0 +1,226 @@
+.link {
+  margin: 20px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.topBanner {
+  /* border: 4px solid red; */
+  position: sticky;
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  z-index: 3;
+  background-color: #161616;
+}
+
+.bottomBanner {
+  /* border: 4px solid red; */
+  display: flex;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  z-index: 3;
+  background-color: #161616;
+}
+
+.logo {
+  padding: 20px;
+  /* border: 2px solid green; */
+}
+
+
+.connect {
+  padding: 10px;
+  display: flex;
+  /* border: 2px solid green; */
+}
+
+.tablist {
+  /* border: 2px solid green; */
+}
+
+.tab {
+  font-weight: bold;
+  color: white;
+  background-color: #161616;
+  size: sm;
+}
+
+.scene {
+  padding: 20px;
+  display: flex;
+  height: 80vh;
+  gap: 30px;
+  flex-direction: column;
+  background-image: url("/images/titanicScene.png");
+  background-size: cover;
+}
+
+.thumbnailsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  z-index: 20;
+}
+
+.sceneLogo {
+  height: calc(100vh * 0.2);
+  width: calc(100vw * 0.1);
+  top: calc(100vh * 0.2);
+  left: 5vw;
+  width: 25vw;
+  z-index: 2;
+}
+
+.sceneDesc {
+  left: 6vw;
+  width: 40vw;
+  font-weight: 500;
+  font-size: calc(100vw * 0.014);
+  line-height: calc(100vw * 0.02);
+  color: white;
+  z-index: 2;
+}
+
+.playButton {
+  top: 2vh;
+  left: 6vw;
+  display: flex;
+  gap: 10px;
+  z-index: 2;
+}
+
+.title {
+  padding-left: 1vw;
+  color: white;
+  font-weight: bold;
+  font-size: calc(100vw * 0.03);
+}
+
+.thumbs {
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2px;
+  row-gap: 20px;
+}
+
+.ownThumbs {
+  padding-left: 3vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: gray;
+  gap: 2px;
+  row-gap: 20px;
+  top: -100px;
+}
+
+.thumbnail {
+  width: 19vw;
+  border-radius: 5px;
+  transition: transform .4s;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.modal {
+  background-color: #161616;
+}
+
+.modalContent {
+  position: relative;
+  background-color: #161616;
+  top: 0px;
+  width: 120%;
+  left: -100px;
+  right: -100px;
+  height: fit-content;
+}
+
+.modalImg {
+  width: 100%;
+}
+
+.modalLogo {
+  position: fixed;
+  top: 500px;
+  left: 80px;
+  width: 30%;
+}
+
+.modalPlayButton {
+  position: fixed;
+  top: 680px;
+  display: flex;
+  left: 80px;
+  gap: 10px
+}
+
+.details {
+  color: white;
+  font-weight: bold;
+  gap: 20px;
+  padding: 20px 0px;
+  display: flex;
+  font-size: 20px;
+
+}
+
+.movieInfo {
+  border: 2px solid green;
+  position: relative;
+  display: flex;
+  font-size: 18px;
+  width: 100%;
+  left: 100px;
+  letter-spacing: 0.5px;
+  background-color: #161616;
+}
+
+.description {
+  position: relative;
+  padding-left: 50px;
+  width: 60%;
+  color: white;
+  border: 2px solid red;
+  background-color: #161616;
+  bottom: 0px;
+
+}
+
+.detailedInfo {
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-top: 60px;
+  width: 30%;
+}
+
+.deets {
+  margin-left: 5px;
+  color: white;
+}
+
+
+.ownListContent {
+  background-color: #161616;
+  height: 100vh;
+  margin-top: 150px;
+}
+
+.msg {
+  margin-left: 5vw;
+}
